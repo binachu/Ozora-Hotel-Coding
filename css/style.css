@@ -1,0 +1,450 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@600&display=swap');
+
+#wrapper {
+    max-width: 990px;
+    height: 6500px;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    background-image: url(backgroundweb.png);  
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.slideshow-container1 {
+    max-width: 850px;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 250px;
+}
+#judul {
+    margin-top: -1050px;
+    max-width: 990px;
+    position: relative;
+}
+
+#teksjudul1 {
+    text-align: center;
+    justify-content: center;
+    color: #5c3f19;
+    margin-top: 370px;
+}
+
+#navibutton1 {
+    display: flex;
+    margin-left: 120px;
+    margin-top: -85px;
+}
+
+#navibutton2 {
+    display: flex;
+    margin-left: 310px;
+    margin-top: -65px;
+}
+
+#navibutton3 {
+    display: flex;
+    margin-left: 540px;
+    margin-top: -60px;
+}
+
+#navibutton4 {
+    display: flex;
+    margin-left: 760px;
+    margin-top: -60px;
+}
+
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 800px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.prev:hover, .next:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #6b98c4;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  .navigation {
+    margin-top: 130px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 80px;
+    display: flex;
+  }
+
+#judulfam {
+    text-align: center;
+    margin-top: 270px;
+  }
+
+.slideshow-container2 {
+    text-align: center;
+    margin-top: 25px;
+    height: 50px;
+  }
+
+.mySlides2 {
+    height: 500px;
+}
+  .imgteks1 {
+    margin-top: 110px;
+    position: relative;
+}
+.imgteks2 {
+    margin-top: 100px;
+}
+
+  .prev2 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: 950px;
+    margin-left: 90px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next2 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: 950px;
+    margin-left: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.prev:hover, .next:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+#dot {
+    margin-top: -150px;
+    height: 50px;
+}
+
+.kupon1 {
+    margin-left: -450px;
+    margin-top: 180px;
+}
+.buttonkupon1 {
+    margin-left: -440px;
+    margin-top: -65px;
+}
+.buttonkupon1:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+.kupon2 {
+    margin-left: 450px;
+    margin-top: -190px;
+}
+.buttonkupon2 {
+    margin-left: 450px;
+    margin-top: -65px;
+}
+.buttonkupon2:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+#judulbaby {
+    margin-top: 70px;
+}
+#slideshow-container3 {
+    text-align: center;
+    margin-top: 25px;
+    height: 50px;
+  }
+
+.mySlides3 {
+    height: 500px;
+}
+
+.imgteks3 {
+    position: relative;
+    margin-top: 75px;
+}
+#dot2 {
+    margin-top: -150px;
+    height: 50px;
+}
+.prev3 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: 1900px;
+    margin-left: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next3 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: 1900px;
+    margin-left: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.prev:hover, .next:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+.kuponbaby {
+    text-align: center;
+    justify-items: center;
+    margin-top: 180px;
+}
+.buttonbaby {
+    margin-top: -75px;
+}
+.buttonbaby:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+#judulcamp {
+    margin-top: 760px;
+}
+.slideshow-container4 {
+    text-align: center;
+    margin-top: 24px;
+    height: 50px;
+  }
+
+.mySlides4 {
+    height: 500px;
+}
+
+.teksimg4 {
+    position: relative;
+    margin-top: 75px;
+}
+#dot3 {
+    margin-top: -150px;
+    height: 50px;
+}
+.prev4 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: 2870px;
+    margin-left: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next4 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: 2870px;
+    margin-left: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.prev:hover, .next:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+.kamar1 {
+    margin-top: 200px;
+    margin-left: -450px;
+}
+.buttonkamar1 {
+    margin-top: -70px;
+    margin-left: -460px;
+}
+.buttonkamar1:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+.kamar2 {
+    margin-top: -198px;
+    margin-left: 450px;
+}
+.buttonkamar2 {
+    margin-top: -70px;
+    margin-left: 440px;
+}
+.buttonkamar2:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+#judulbuffet {
+    margin-top: 830px;
+}
+.slideshow-container5 {
+    text-align: center;
+    margin-top: 60px;
+    height: 50px;
+  }
+
+.mySlides5 {
+    height: 500px;
+}
+
+.teksimg5 {
+    position: relative;
+    margin-top: 75px;
+    margin-left: -20px;
+}
+#dot4 {
+    margin-top: -60px;
+    height: 50px;
+}
+.prev5 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: 3900px;
+    margin-left: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next5 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    margin-top: 3900px;
+    margin-left: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.prev:hover, .next:hover {
+    background-color: #f1f1f1;
+    color: black;
+}
+.komen {
+    margin-top: 200px;
+}
+.kuponbawah {
+    margin-top: 1430px;
+}
+.kuponbawah:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+.bawahkupon {
+    margin-top: 10px;
+}
+#jal {
+    margin-top: 50px;
+    margin-left: -465px;
+}
+#jal:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+#ana {
+    margin-top: -128px;
+    margin-left: 490px;
+}
+#ana:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+#submit {
+    margin-top: 50px;
+}
+#submit:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
